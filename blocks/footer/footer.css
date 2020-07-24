@@ -1,8 +1,8 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
 @import url(./__list/footer__list.css);
-@import url(./__cell/footer__cell.css);
 @import url(./__list-cell/footer__list-cell.css);
+@import url(./__nav/footer__nav.css);
 .footer{
     padding-top: 92px;
     width: 92.5%;

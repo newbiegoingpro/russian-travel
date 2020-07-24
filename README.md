@@ -6,3 +6,4 @@
 3. А медиазапросы это технология? Ну, они тут тоже есть.
 4. MISTER KANYE WEST 4 PRESIDENT
 
+GitHub.Pages link - https://newbiegoingpro.github.io/russian-travel/ !
