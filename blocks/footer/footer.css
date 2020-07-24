@@ -1,21 +1,36 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
+@import url(./__list/footer__list.css);
+@import url(./__cell/footer__cell.css);
+@import url(./__list-cell/footer__list-cell.css);
 .footer{
     padding-top: 92px;
     width: 92.5%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 50px 57px 94px 86px 106px 1fr;
-    column-gap: 18px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px){
-    .footer{
-        width: 58.125%;
-        grid-template-rows: repeat(6, minmax(min-content, max-content));
-        grid-template-columns:1fr;
-        row-gap: 32px;
-        margin: 0;
-        padding-left: 16px;
+@media screen and (min-width: 320px) and (max-width: 767px){
+.footer{
+width: 58.125%;
+flex-direction: column;
+margin: 0;
+padding-left: 16px;
+margin-bottom: 10px;
+padding-top: 64px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+.footer{
+width: 90.625%;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+.footer{
+width: 93.75%;
     }
 }

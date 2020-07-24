@@ -7,12 +7,10 @@ font-weight: normal;
 font-size: 24px;
 line-height: 1.17;
 text-align: right;
+transition: .1s linear;
+cursor: url(../../../images/Pointer.svg), pointer;
 }
-.header__lang-link:hover{
-    text-decoration-line: underline;
-    opacity: .5;
-    transition: .1s linear;
-}
+
 .header__lang-link:first-of-type{
     padding-right: 18px;
 }

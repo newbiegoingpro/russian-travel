@@ -1,13 +1,15 @@
 .place__link{
-    opacity: 1;
-    text-decoration: underline;
-    color: #FFFFFF;
-    font-style: normal;
+opacity: 1;
+text-decoration: underline;
+color: #FFFFFF;
+font-style: normal;
 font-weight: normal;
 font-size: 18px;
+transition: .1s linear;
 line-height: 1.22;
+cursor: url(../../../images/Pointer.svg), pointer;
 }
 .place__link:hover{
-    opacity: .5;
-    transition: .1s linear;
+opacity: .5;
+    
 }

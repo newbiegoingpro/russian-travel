@@ -15,7 +15,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px){
     .place{
         grid-template-columns: minmax(min-content, max-content);
-        grid-template-rows: minmax(min-content, max-content);
+        
         margin-bottom: 48px;
     }
     .place:last-of-type{
@@ -25,14 +25,14 @@
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .place{
         grid-template-columns: 340px minmax(min-content, max-content);
-        grid-template-rows: minmax(min-content, max-content);
+        
 
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .place{
         grid-template-columns: 440px minmax(min-content, max-content);
-        grid-template-rows: minmax(min-content, max-content);
+        
     }
 
 }

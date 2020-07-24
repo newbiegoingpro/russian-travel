@@ -1,8 +1,8 @@
 .place__website{
     align-self: end;
     }
-    @media screen and (min-width: 320px) and (max-width: 425px){
-        .place__website{
-            display: none;
-        }
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .place__website{
+    display: none;
     }
+}
